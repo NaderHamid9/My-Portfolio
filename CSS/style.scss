@@ -1,0 +1,128 @@
+$bg-color: #28293e;
+$primary-color: #ef6d58;
+$secondary-color: #fdf0e9;
+$txt-color: #391400;
+
+nav {
+  background-color: $bg-color;
+}
+.nav-list {
+  display: flex;
+  margin: 0px;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+.intro-section {
+  background-color: $bg-color;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.intro-title {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 55px;
+  span {
+    color: $primary-color;
+  }
+  margin-bottom: 40px;
+  line-height: 75px;
+}
+.contact-btn {
+  background-color: $primary-color;
+  text-decoration: none;
+  color: white;
+  padding: 7px 23px;
+  border-radius: 10px;
+}
+.about-section {
+  padding-top: 100px;
+  background-color: $secondary-color;
+  padding-bottom: 100px;
+}
+.about-small-title {
+  color: $primary-color;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-top: 50px;
+}
+.about-large-title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: $txt-color;
+}
+.about-2small-title {
+  color: $txt-color;
+}
+.desc {
+  line-height: 25px;
+  color: #391400a9;
+  margin-bottom: 30px;
+}
+.about-btn {
+  text-decoration: none;
+  color: $txt-color;
+  background-color: white;
+  padding: 10px 30px;
+  font-size: 12px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.096) 0px 3px 9px;
+}
+.how-we-work {
+  background-color: $secondary-color;
+  padding: 100px 0px;
+}
+.hww-small-title {
+  color: $primary-color;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.hww-large-title {
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.hww-desc {
+  line-height: 30px;
+  color: #391400a9;
+}
+.read-more-btn {
+  text-decoration: none;
+  color: $txt-color;
+}
+.hww-list {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 40%;
+  span {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+}
+.work-section {
+  padding: 100px 0px;
+  background-color: $bg-color;
+}
+.work-small-title {
+  text-align: center;
+  color: $primary-color;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.work-large-title {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 50px;
+  color: white;
+}
+.work-title {
+  position: relative;
+  bottom: 25%;
+  left: 38%;
+  color: white;
+  font-size: 20px;
+}
+.grid-image {
+  margin-bottom: 35px;
+}
